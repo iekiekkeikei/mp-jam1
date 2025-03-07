@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "24the_end"
+	group: "4E18A01DF8269CB5"
+	id: "656B1E024A849442"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:end_stone"
+			id: "1010EFE82BF79C8A"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4FF66DBB97F830C2"
+				type: "dimension"
+			}]
+			title: "物語を終わらせるのは…ここじゃない。"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "737C497EA24084DC"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "325CBE39B8769721"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "2-4-The End"
+}

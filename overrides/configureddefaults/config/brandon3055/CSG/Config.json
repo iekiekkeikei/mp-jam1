@@ -1,0 +1,10 @@
+{
+  "inventory": {
+    "1:2": "{Count:1b,id:\"sophisticatedbackpacks:backpack\",tag:{contentsUuid:[I;-427945072,1273250547,-1441423744,-1129150201],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{}}]},upgradeSlots:1}}",
+    "0:10": "{Count:1b,id:\"weaponmaster:weaponkit\"}",
+    "0:9": "{Count:16b,id:\"minecraft:baked_potato\"}",
+    "0:11": "{Count:1b,id:\"weaponmaster:workstation\"}",
+    "0:12": "{Count:1b,id:\"irons_spellbooks:copper_spell_book\",tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:chain_creeper\",index:0,level:1,locked:0b},{id:\"irons_spellbooks:firecracker\",index:1,level:1,locked:0b},{id:\"irons_spellbooks:shield\",index:2,level:1,locked:0b}],maxSpells:5,mustEquip:1b,spellWheel:1b}}}"
+  },
+  "wipeBlacklist": []
+}

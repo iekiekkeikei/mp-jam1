@@ -1,0 +1,69 @@
+{
+	autofocus_id: "7F042BC1BF5DAD5A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial"
+	group: ""
+	id: "19964658BD2E9288"
+	order_index: 0
+	quest_links: [
+		{
+			id: "16EAEDFD7BBDF68F"
+			linked_quest: "30A1B07C445EEBEF"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "7F4FCC9300E46D32"
+			linked_quest: "0BF18549D4A1FAF0"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "2434431AE12CF8B9"
+			linked_quest: "76FC17025713A104"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "2B929281AABC5D52"
+			linked_quest: "5DE398EEE3EDD131"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "786FB6242424BC53"
+			linked_quest: "6BFD87F540FD366E"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "29D9B52014E127D9"
+			linked_quest: "2E5840D46A13FC55"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "2A0397FEFC940175"
+			linked_quest: "24373F3BAEE9BB7E"
+			x: -4.0d
+			y: 1.5d
+		}
+	]
+	quests: [{
+		id: "7F042BC1BF5DAD5A"
+		rewards: [{
+			id: "09FFF0DF964EAD99"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "7CDD86965FEE7C2F"
+			title: "Inventory checked"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Tutorial"
+}

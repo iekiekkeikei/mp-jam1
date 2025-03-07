@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells_and_books"
+	group: "7A8984215F863D30"
+	id: "669233D4A59A0C9D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F042BC1BF5DAD5A"]
+			id: "0BF18549D4A1FAF0"
+			rewards: [{
+				id: "71E21DF258762C90"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "ホグワーツ魔法学校は卒業しましたか？"
+			tasks: [{
+				consume_items: false
+				id: "70E4FD808C0BAC92"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF18549D4A1FAF0"]
+			id: "346C2F06F72F33A6"
+			tasks: [{
+				id: "2140CCAFF868C646"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BF18549D4A1FAF0"]
+			id: "5BEFF41905A33288"
+			tasks: [{
+				id: "4CF463FC55CA8B8C"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BF18549D4A1FAF0"]
+			id: "4CDE8B515BA59C26"
+			tasks: [{
+				id: "4189683F422C98E1"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CDE8B515BA59C26"]
+			id: "6BC1F229F13471DD"
+			tasks: [{
+				id: "0AE8E9C96B16D65F"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BEFF41905A33288"]
+			id: "63D1A5DD2245EB92"
+			tasks: [{
+				id: "48854B6426954C9F"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63D1A5DD2245EB92"]
+			id: "0A3A99F7F363733D"
+			tasks: [{
+				id: "46BB711CB2AF6EB4"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A3A99F7F363733D"]
+			id: "6A9923FB0E2CE743"
+			tasks: [{
+				id: "1229D0ED91E6B131"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A9923FB0E2CE743"]
+			id: "1D4AAA11889F0C3A"
+			tasks: [{
+				id: "7CACD9665CB77108"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D4AAA11889F0C3A"]
+			id: "3F303DFA548318D4"
+			tasks: [{
+				id: "51FD5A5A7C3E1514"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CDE8B515BA59C26"]
+			id: "357C7D05AF88908D"
+			tasks: [{
+				id: "7645ADBAF8A7D7C6"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+	title: "Iron's Spells and Books"
+}

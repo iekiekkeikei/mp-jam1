@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "theurgy"
+	group: "7A8984215F863D30"
+	id: "5B879C6FBDA65A40"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "295A8DB515CAF652"
+		tasks: [{
+			id: "7A0F29B641222523"
+			item: {
+				Count: 1
+				id: "modonomicon:modonomicon"
+				tag: {
+					"modonomicon:book_id": "theurgy:the_hermetica"
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["錬金術"]
+	title: "Theurgy"
+}

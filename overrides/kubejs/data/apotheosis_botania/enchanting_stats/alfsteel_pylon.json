@@ -1,0 +1,11 @@
+{
+	"block": "mythicbotany:alfsteel_pylon",
+	"stats": {
+		"maxEterna": 60,
+		"eterna": 25,
+		"quanta": 0,
+		"arcana": 0,
+		"rectification": 0,
+		"clues": 0
+	}
+}

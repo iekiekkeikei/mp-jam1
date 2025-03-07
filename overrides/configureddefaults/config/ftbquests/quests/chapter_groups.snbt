@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "7A8984215F863D30", title: "magics" }
+		{ id: "4E18A01DF8269CB5", title: "Dimensions" }
+		{ id: "1D92F7FC6BF04B15", title: "misc" }
+	]
+}

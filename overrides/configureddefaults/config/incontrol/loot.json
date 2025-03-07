@@ -1,0 +1,32 @@
+[   
+    {
+      "mob": "twilightforest:lich",
+      "player": true,
+      "item": ["irons_spellbooks:common_ink","irons_spellbooks:uncommon_ink","irons_spellbooks:rare_ink"],
+      "itemcount": "3-4/4-6/5-6"
+    },
+    {
+      "mob": "twilightforest:knight_phantom",
+      "player": true,
+      "item": ["irons_spellbooks:common_ink","irons_spellbooks:uncommon_ink"],
+      "itemcount": "3-4/4-6/5-6"
+    },
+    {
+      "mob": ["irons_spellbooks:dead_king", "blue_skies:summoner", "blue_skies:alchemist"],
+      "player": true,
+      "item": ["irons_spellbooks:upgrade_orb","irons_spellbooks:ancient_knowledge_fragment","irons_spellbooks:epic_ink","irons_spellbooks:legendary_ink","apotheosis:mythic_material"],
+      "itemcount": "5-8/8-11/11-15"
+    },
+    {
+      "mob": ["irons_spellbooks:dead_king", "blue_skies:summoner", "blue_skies:alchemist"],
+      "player": true,
+      "item": ["irons_spellbooks:ruined_book","irons_spellbooks:tarnished_helmet"],
+      "itemcount": "1"
+    },
+    {
+      "mob": ["minecraft:wither", "minecraft:ender_dragon", "irons_spellbooks:dead_king", "alexscaves:luxtructosaurus", "blue_skies:summoner", "blue_skies:alchemist", "blue_skies:arachnarch", "blue_skies:starlit_crusher", "aether:slider", "aether:valkyrie_queen", "lost_aether_content:aerwhale_king", "dungeonnowloading:chaos_spawner","irons_spellbooks:dead_king", "cataclysm:ancient_remnant", "cataclysm:maledictus", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity", "cataclysm:ignis","cataclysm:the_leviathan", "cataclysm:the_harbinger"],
+      "player": true,
+      "item": "apotheosis:ancient_material",
+      "itemcount": "0-2"
+    }
+  ]

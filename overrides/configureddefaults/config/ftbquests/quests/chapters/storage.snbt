@@ -1,0 +1,201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "1D92F7FC6BF04B15"
+	id: "7D4375A1C83BF8F7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F042BC1BF5DAD5A"]
+			id: "5DE398EEE3EDD131"
+			rewards: [{
+				id: "0C4186D79707B16D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "クソ便利"
+			tasks: [{
+				id: "63A4E1E18B70AE1D"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "旅のお供!"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "536CE10083C623C3"
+			tasks: [{
+				id: "2288520C9DC39585"
+				item: "cloudstorage:balloon"
+				type: "item"
+			}]
+			title: "クラウドストレージ(物理)"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DE398EEE3EDD131"]
+			id: "180B0DE3ACB8AFCE"
+			tasks: [{
+				id: "0C17F67C94E358AE"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DE398EEE3EDD131"]
+			id: "5F62C0B0106CC717"
+			tasks: [{
+				id: "3CFD9479E1F0DC6D"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["180B0DE3ACB8AFCE"]
+			id: "7695E66F6BD32901"
+			tasks: [{
+				id: "331867FC52E79DAC"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7695E66F6BD32901"]
+			id: "1E80099A00107A4A"
+			tasks: [{
+				id: "0FA4F9268D383AFB"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E80099A00107A4A"]
+			id: "6A9726F511381D0E"
+			tasks: [{
+				id: "525E2AEF436709CA"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "5AF0E44308AF2D95"
+			tasks: [
+				{
+					id: "5472E935A209F8E9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:chest"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2CB974DD040F813F"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6C37A40BDFBC4224"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4A3C4205A8B85C95"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_2"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2B583DAF9EDFF046"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_3"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "01BAA768CC67CC97"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_4"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AF0E44308AF2D95"]
+			id: "1A5C8E319C19F3DD"
+			tasks: [{
+				id: "46A057ABDBC18BF3"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["536CE10083C623C3"]
+			id: "07C684ED13858333"
+			tasks: [{
+				id: "48D6301E042C3545"
+				item: "cloudstorage:cloud_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "2777031D49B78EFD"
+			tasks: [
+				{
+					id: "06E266D44C747AFF"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "20F2623E8BBBF228"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+				{
+					id: "179F78F1095E0D55"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	title: "Storage"
+}

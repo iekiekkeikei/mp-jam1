@@ -1,0 +1,112 @@
+{
+  "general": {
+    "disabled_all_structures": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structures": [
+    {
+      "name": "apotheosis:tower_main",
+      "is_disabled": false,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [
+        "twilightforest:spooky_forest",
+        "twilightforest:oak_savannah",
+        "twilightforest:mushroom_forest",
+        "twilightforest:firefly_forest",
+        "twilightforest:dense_mushroom_forest",
+        "twilightforest:dense_forest",
+        "twilightforest:clearing"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "hexerei:baba_yaga_hut",
+      "is_disabled": false,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [
+        "twilightforest:spooky_forest",
+        "twilightforest:oak_savannah",
+        "twilightforest:mushroom_forest",
+        "twilightforest:firefly_forest",
+        "twilightforest:dense_mushroom_forest",
+        "twilightforest:dense_forest",
+        "twilightforest:clearing"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "hexerei:dark_coven",
+      "is_disabled": false,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [
+        "twilightforest:fire_swamp",
+        "twilightforest:swamp"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "hexerei:nature_coven",
+      "is_disabled": false,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "whitelisted_biomes": [
+        "twilightforest:spooky_forest",
+        "twilightforest:oak_savannah",
+        "twilightforest:mushroom_forest",
+        "twilightforest:firefly_forest",
+        "twilightforest:dense_mushroom_forest",
+        "twilightforest:dense_forest",
+        "twilightforest:clearing"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "hexerei:owl_post_office",
+      "is_disabled": false,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [
+        "twilightforest:spooky_forest",
+        "twilightforest:oak_savannah",
+        "twilightforest:mushroom_forest",
+        "twilightforest:firefly_forest",
+        "twilightforest:dense_mushroom_forest",
+        "twilightforest:dense_forest",
+        "twilightforest:clearing"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "hexerei:witch_hut",
+      "is_disabled": false,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [
+        "twilightforest:fire_swamp",
+        "twilightforest:swamp"
+      ],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "irons_spellbooks:pyromancer_tower",
+      "is_disabled": false,
+      "enable_biome_check": false,
+      "biome_check_distance": 96,
+      "whitelisted_biomes": [
+        "twilightforest:spooky_forest",
+        "twilightforest:oak_savannah",
+        "twilightforest:mushroom_forest",
+        "twilightforest:firefly_forest",
+        "twilightforest:dense_mushroom_forest",
+        "twilightforest:dense_forest",
+        "twilightforest:clearing"
+      ],
+      "blacklisted_biomes": []
+    }
+  ],
+  "structure_sets": []
+}

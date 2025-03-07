@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "1D92F7FC6BF04B15"
+	icon: "farmersdelight:stove"
+	id: "36668E6066AE5BBB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "19F1320359751CA9"
+			tasks: [{
+				id: "334428BFE37D253E"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5C402B1220DF3FBC"
+			tasks: [{
+				advancement: "farmersdelight:main/craft_knife"
+				criterion: ""
+				id: "1E4F38224D65CD10"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "5AC4BC8AD1B21542"
+			tasks: [{
+				id: "6013271EBBD3D957"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "6874C592B1255724"
+			tasks: [{
+				id: "48C2893ED24CF5F2"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "29376E1ED4059870"
+			tasks: [{
+				id: "5B3275785AC01B44"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "7B2361B2A03ABF57"
+			tasks: [{
+				id: "47260F5625164273"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "2FC2BDD9C58B9097"
+			tasks: [{
+				id: "158ADEDE29F6ECF4"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "714237883709F4A9"
+			tasks: [{
+				id: "2C7821D5656AA9EB"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "710613B92FED760A"
+			tasks: [{
+				id: "555872CFE226C609"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "588566F13C120E1D"
+			tasks: [{
+				id: "7DEDA58D4D5339FA"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "46188AA553F695ED"
+			tasks: [{
+				id: "64B251D381D2F035"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "65FEDC68B7136685"
+			tasks: [{
+				id: "773A1EE865B6285F"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "2E9919EEC78074E3"
+			tasks: [{
+				id: "021D53CEF118D77E"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+	]
+	subtitle: ["切る!焼く!煮る!"]
+	title: "Farmer's Delight"
+}

@@ -1,0 +1,248 @@
+{
+	autofocus_id: "30A1B07C445EEBEF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0the_twilight_forest"
+	group: "4E18A01DF8269CB5"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "30B1B19D722D5882"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F042BC1BF5DAD5A"]
+			description: [
+				"あなたの旅はここ、黄昏の森から始まります。"
+				"序盤の拠点は大きいTwilight Oakにドアをつけて中に住むと快適だったりします"
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "30A1B07C445EEBEF"
+			rewards: [{
+				id: "277C37B49B6D4FFE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "799F2D7C5B2225BD"
+				type: "dimension"
+			}]
+			title: "冒険の始まり"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30A1B07C445EEBEF"
+				"59182DD871BC140E"
+			]
+			id: "6E0509CA06353A34"
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "1D804929272C112E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E0509CA06353A34"]
+			id: "258014D5ED0F1B37"
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "0723096718D00FFD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["258014D5ED0F1B37"]
+			id: "1F7C308D805298B4"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "4309D9C2A29C505B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F7C308D805298B4"]
+			id: "5E8BF2B6F30B4A6B"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "4FAF8B3DBB0A36C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["258014D5ED0F1B37"]
+			dependency_requirement: "one_completed"
+			id: "5C2C792133D5134E"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "2BF010D4CF3383C1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C2C792133D5134E"]
+			dependency_requirement: "one_started"
+			id: "52287D403A10CE4D"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "0957AD213FBD14F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["258014D5ED0F1B37"]
+			dependency_requirement: "one_completed"
+			id: "614CCD7CCE884341"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "3D43A7D5D3EDF761"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["614CCD7CCE884341"]
+			id: "4A05FBE2B782D525"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "40FA591C77C57DC9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52287D403A10CE4D"]
+			id: "28BF1909A9245367"
+			tasks: [{
+				id: "2D9599E49C889864"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28BF1909A9245367"]
+			description: [
+				"このランプは右クリックでラストダンジョンのまわりのいばらを焼ききることができます"
+				"普通に壊そうとするといくらでもよみがえってくるのでね"
+				"さて、ラストダンジョンには通常ボスはいません、が、この環境にはいます"
+				"ですが乗り込むのはもう少し後の方がいいです、かなりの強敵なので"
+			]
+			id: "4106BBB55DCF23D3"
+			tasks: [{
+				id: "25B9E41FD585682C"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"30A1B07C445EEBEF"
+				"6BFD87F540FD366E"
+			]
+			id: "2E5840D46A13FC55"
+			tasks: [{
+				id: "4B819416DA64D93B"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E5840D46A13FC55"]
+			id: "59182DD871BC140E"
+			tasks: [{
+				id: "1FA49098A85B6AAD"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59182DD871BC140E"]
+			id: "082E30DBF1D4B853"
+			tasks: [{
+				id: "3F1C826867B6F2E2"
+				optional_task: true
+				structure: "twilightforest:large_hollow_hill"
+				type: "structure"
+			}]
+			title: "亡霊鉱山・大"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59182DD871BC140E"]
+			id: "083908565CF0F35B"
+			tasks: [{
+				id: "269E5E33DA985B76"
+				structure: "twilightforest:medium_hollow_hill"
+				type: "structure"
+			}]
+			title: "亡霊鉱山・中"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59182DD871BC140E"]
+			id: "37644E2887BF50E3"
+			tasks: [{
+				id: "7F6A44FF01C157DC"
+				structure: "twilightforest:small_hollow_hill"
+				type: "structure"
+			}]
+			title: "亡霊鉱山・小"
+			x: 4.0d
+			y: -3.0d
+		}
+	]
+	title: "0-The Twilight Forest"
+}

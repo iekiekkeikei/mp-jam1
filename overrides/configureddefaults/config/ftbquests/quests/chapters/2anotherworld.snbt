@@ -1,0 +1,84 @@
+{
+	autofocus_id: "658945046035D255"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2anotherworld"
+	group: "4E18A01DF8269CB5"
+	id: "0D28657E413AC8E3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "aether:aether_portal_frame"
+			id: "658945046035D255"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "06023E3284C53FDC"
+				type: "dimension"
+			}]
+			title: "凶悪なる楽園"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:emerald"
+			id: "663CEF597A295C94"
+			tasks: [{
+				id: "7E4933E71A4582C2"
+				structure: "aether_villages:olympic_citadel"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["658945046035D255"]
+			id: "5EE1B51D91E337F2"
+			tasks: [{
+				entity: "aether:slider"
+				id: "4C62D906784B8AE4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EE1B51D91E337F2"]
+			id: "524C15BF8F678B1C"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "57BD8CAA97DD1343"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["524C15BF8F678B1C"]
+			id: "23CE389E5D238164"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "0CE3104DB23D20F0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23CE389E5D238164"]
+			id: "426FFE943937AE1C"
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				id: "4336D67964703DF1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	title: "2-3-Aether"
+}

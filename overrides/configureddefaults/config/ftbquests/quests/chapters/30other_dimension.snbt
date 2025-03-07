@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "30other_dimension"
+	group: "4E18A01DF8269CB5"
+	id: "5AD5FFC5A2FAA7F6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		icon: "deeperdarker:heart_of_the_deep"
+		id: "44538F8659B00D67"
+		tasks: [{
+			dimension: "deeperdarker:otherside"
+			id: "4DC6FDAD284ABB20"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "3-0-OtherSide"
+}

@@ -1,0 +1,19 @@
+[
+    {
+      "mob": ["irons_spellbooks:dead_king_corpse", "alexscaves:luxtructosaurus", "blue_skies:summoner", "blue_skies:alchemist", "blue_skies:arachnarch", "blue_skies:starlit_crusher", "aether:slider", "aether:valkyrie_queen"],
+      "persecond": 5,
+      "attempts": 20,
+      "amount": {
+        "minimum": 1,
+        "maximum": 3
+      },
+      "conditions": {
+        "dimension": "deeperdarker:otherside",
+        "mindist": 25,
+        "maxdist": 100,
+        "minheight": 15,
+        "maxheight": 127,
+        "maxthis": 50
+      }
+    }
+  ]

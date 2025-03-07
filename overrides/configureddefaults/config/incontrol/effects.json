@@ -1,0 +1,7 @@
+[
+    {
+      "timeout": 20,
+      "dimension": ["blue_skies:everdawn","blue_skies:everbright"],
+      "potion": "minecraft:luck,21,4"
+    }
+  ]

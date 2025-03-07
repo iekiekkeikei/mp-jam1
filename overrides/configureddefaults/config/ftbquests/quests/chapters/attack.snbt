@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "attack"
+	group: "1D92F7FC6BF04B15"
+	id: "2CD45DEFD019C551"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "64CEC57561702AE2"
+			subtitle: "これぐらいの火力出せて当然です"
+			tasks: [{
+				advancement: "nether:nether/overkill"
+				criterion: ""
+				id: "212ED87B3EDC81FE"
+				type: "advancement"
+			}]
+			title: "(Not)OverKill"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F042BC1BF5DAD5A"]
+			id: "76FC17025713A104"
+			rewards: [{
+				id: "3B0B06B10A4781A8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "やってることが完全にぷちぷちおみせっち"
+			tasks: [
+				{
+					id: "2AE8260EA7F61885"
+					item: "weaponmaster:weaponkit"
+					type: "item"
+				}
+				{
+					id: "28ABA664527BB7FF"
+					item: "weaponmaster:workstation"
+					type: "item"
+				}
+			]
+			title: "WeaponMaster"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76FC17025713A104"]
+			id: "0E7F313785E323A3"
+			tasks: [{
+				id: "1D53FD22E4E24208"
+				item: {
+					Count: 1
+					id: "weaponmaster:wm_broadsword"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							469299600
+							-1456322470
+							-1498741145
+							235327821
+						]
+						CoreWeaponlevels: { }
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "fluix2"
+							guard: "knight2"
+							handle: "coldweld"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: ""
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "sword"
+						display: {
+							Name: "{\"text\":\"Broadsword\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76FC17025713A104"]
+			id: "5BA385ED3991B629"
+			tasks: [{
+				id: "11C7C69A028FA055"
+				item: {
+					Count: 1
+					id: "weaponmaster:wm_rapier"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							-1429739853
+							258753013
+							-1640771793
+							1708570457
+						]
+						CoreWeaponlevels: { }
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "ethereal1"
+							guard: "radiance1"
+							handle: "stardust"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: ""
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "rapier"
+						display: {
+							Name: "{\"text\":\"Rapier\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76FC17025713A104"]
+			id: "138D03D8689EA365"
+			tasks: [{
+				id: "708828DDF74429E0"
+				item: {
+					Count: 1
+					id: "weaponmaster:wm_broadswordlarge"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							-979708233
+							1959938920
+							-2097125358
+							1716295859
+						]
+						CoreWeaponlevels: { }
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "signalum2"
+							guard: "ethereal1"
+							handle: "solarium1"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: ""
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "scythe"
+						display: {
+							Name: "{\"text\":\"Scythe\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76FC17025713A104"]
+			id: "7C78819C09EEF82E"
+			tasks: [{
+				id: "2A7FDFDB7E65BC15"
+				item: {
+					Count: 1
+					id: "weaponmaster:wm_rapierlarge"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							-1330249457
+							-232240363
+							-1329406671
+							-428368828
+						]
+						CoreWeaponlevels: { }
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "accretion1"
+							guard: "liquidenderium2"
+							handle: "ethereal"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: ""
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "polearm"
+						display: {
+							Name: "{\"text\":\"Polearm\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+	title: "Attack"
+}

@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "23nether"
+	group: "4E18A01DF8269CB5"
+	id: "5E4AD96DFE01B4BA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:netherrack"
+			id: "7F8A8A3DB498E7B5"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "154A9DDC1E834C11"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "03978E47A22B1698"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "2F91B194B181854F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03978E47A22B1698"]
+			id: "5D47395A872AEEAB"
+			tasks: [{
+				id: "2B48A1A93D066F54"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	title: "2-1-Nether"
+}

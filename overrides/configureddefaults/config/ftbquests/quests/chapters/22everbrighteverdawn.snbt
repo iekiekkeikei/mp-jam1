@@ -1,0 +1,108 @@
+{
+	autofocus_id: "3FAD2527AEB3B80E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "22everbrighteverdawn"
+	group: "4E18A01DF8269CB5"
+	icon: "blue_skies:blue_journal"
+	id: "448F17D60DB5B8EA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3FAD2527AEB3B80E"]
+			icon: "blue_skies:everbright_portal"
+			id: "1D7985210E120D35"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "51E0878CC7EF69D8"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FAD2527AEB3B80E"]
+			icon: "blue_skies:everdawn_portal"
+			id: "0F3767F11651CC50"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "75DC8C1A19E0447A"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: "blue_skies:blue_journal"
+			id: "3FAD2527AEB3B80E"
+			tasks: [
+				{
+					id: "5C4D291AF5B843E5"
+					item: "blue_skies:blue_journal"
+					type: "item"
+				}
+				{
+					id: "4A26126C18913B1A"
+					item: {
+						Count: 1
+						id: "blue_skies:zeal_lighter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "222C86BA58F72795"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "68169D7CBCACF449"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "6214EAB49E9D48A2"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "22D736822DF0D75D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["222C86BA58F72795"]
+			id: "431A4FA112DD78C9"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				id: "58D80F4C7E6E0736"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6214EAB49E9D48A2"]
+			id: "0A5F6E125ECAB0DA"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				id: "239AC4CCAD3776A2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+	title: "2-2-EverBright/EverDawn"
+}

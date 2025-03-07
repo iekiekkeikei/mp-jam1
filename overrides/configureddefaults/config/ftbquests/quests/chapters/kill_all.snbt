@@ -1,0 +1,159 @@
+{
+	autofocus_id: "280B8F41061F02FF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kill_all"
+	group: "1D92F7FC6BF04B15"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "048BFBB950050201"
+	order_index: 6
+	quest_links: [
+		{
+			id: "1EE5066B13EA622F"
+			linked_quest: "258014D5ED0F1B37"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "7EBC359DEC74D8B7"
+			linked_quest: "6E0509CA06353A34"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "20B6B99FB177C126"
+			linked_quest: "1F7C308D805298B4"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "0C19A7D782B56681"
+			linked_quest: "5E8BF2B6F30B4A6B"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "3CB67800C0AA6064"
+			linked_quest: "5C2C792133D5134E"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "01F0A68E73071EE3"
+			linked_quest: "52287D403A10CE4D"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "4112206A171F186F"
+			linked_quest: "614CCD7CCE884341"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "6ABEFBB32D92D969"
+			linked_quest: "4A05FBE2B782D525"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "280B8F41061F02FF"
+			linked_quest: "787857465DA3CEDF"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4F374F07E5F9700E"
+			linked_quest: "222C86BA58F72795"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "2F41C9F1A1ED2798"
+			linked_quest: "431A4FA112DD78C9"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "1C1566DFD7DFA73D"
+			linked_quest: "6214EAB49E9D48A2"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "4F92DC296B2BA83F"
+			linked_quest: "0A5F6E125ECAB0DA"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "073F1A0E488B9313"
+			linked_quest: "5EE1B51D91E337F2"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "16D4695B5D973CFC"
+			linked_quest: "524C15BF8F678B1C"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "685F9D5C81CE613C"
+			linked_quest: "23CE389E5D238164"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "517AF6165F97DCBC"
+			linked_quest: "426FFE943937AE1C"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "07263E41C138A9B5"
+			linked_quest: "737C497EA24084DC"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "4CED124780DF967B"
+			linked_quest: "03978E47A22B1698"
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	quests: [
+		{
+			id: "1DDA87987E6C04F6"
+			subtitle: "狼の倒しすぎだからOverWolf()"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "157489BD06F6AD7C"
+				type: "kill"
+				value: 100L
+			}]
+			title: "OverWolf"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "0D2C445A274B686A"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "542B9779C4E4E989"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Kill All"
+}

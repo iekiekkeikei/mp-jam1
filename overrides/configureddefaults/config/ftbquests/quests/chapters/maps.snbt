@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "maps"
+	group: "1D92F7FC6BF04B15"
+	id: "3D05DF62AC22D5E2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["563AE697DBF34B06"]
+			id: "605B19CCEA831CDA"
+			tasks: [{
+				id: "79C61FCABA93A8DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "563AE697DBF34B06"
+			tasks: [{
+				id: "50464A45BD7A2713"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["563AE697DBF34B06"]
+			id: "299BD32068CC62F0"
+			optional: true
+			tasks: [{
+				id: "09A4F568A4B3EE4D"
+				item: "supplementaries:slice_map"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A77AC6CA7E87D8A"]
+			id: "72C668D21048ECE5"
+			tasks: [{
+				id: "596DE0B409B70BAF"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "2A77AC6CA7E87D8A"
+			tasks: [{
+				id: "52315316496A69F6"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+	]
+	title: "Adventure"
+}

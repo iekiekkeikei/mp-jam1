@@ -1,0 +1,67 @@
+[
+    {
+        "when": "onjoin",
+        "mob": "blue_skies:arachnarch",
+        "result": "allow",
+        "potion": "irons_spellbooks:charged,8640000,1"
+    },
+    {
+        "when": "onjoin",
+        "mob": "blue_skies:alchemist",
+        "result": "allow",
+        "potion": "irons_spellbooks:thunderstorm,8640000,100"
+    },
+    {
+        "when": "onjoin",
+        "mob": "blue_skies:summoner",
+        "result": "allow",
+        "potion": "traveloptics:orbital_void,8640000,10"
+    },
+    {
+        "when": "onjoin",
+        "mob": "blue_skies:artificial_golem", 
+        "result": "allow",
+        "potion": "irons_spellbooks:heartstop,150,1"
+    },
+    {
+        "when": "onjoin",
+        "mob": "blue_skies:spewter", 
+        "result": "allow",
+        "potion": "irons_spellbooks:heartstop,600,1"
+    },
+    {
+        "when": "onjoin",
+        "mob": "kubejs:valine_3g", 
+        "result": "allow",
+        "potion": "irons_spellbooks:evasion,300,100"
+    },
+    {
+        "when": "onjoin",
+        "mob": "aether:slider", 
+        "result": "allow",
+        "potion": "irons_spellbooks:hastened,8640000,10"
+    },
+    {
+        "when": "onjoin",
+        "mob": "aether:valkyrie_queen", 
+        "result": "allow",
+        "potion": ["irons_spellbooks:charged,8640000,10","mahoutsukai:borrowed_authority,8640000,0"]
+    },
+    {
+        "when": "onjoin",
+        "mob": "aether:sun_spirit", 
+        "result": "allow",
+        "potion": ["irons_spellbooks:echoing_strikes,8640000,10","mahoutsukai:borrowed_authority,8640000,0"]
+    },
+    {
+        "when": "onjoin",
+        "mob": "lost_aether_content:aerwhale_king", 
+        "result": "allow",
+        "potion": ["irons_spellbooks:charged,8640000,10","irons_spellbooks:echoing_strikes,8640000,10","mahoutsukai:borrowed_authority,8640000,0"]
+    },
+    {
+        "mob": ["irons_spellbooks:dead_king_corpse", "alexscaves:luxtructosaurus", "blue_skies:summoner", "blue_skies:alchemist", "blue_skies:arachnarch", "blue_skies:starlit_crusher", "aether:slider", "aether:valkyrie_queen"],
+        "mincount": 10,
+        "result": "deny"
+    }
+  ]

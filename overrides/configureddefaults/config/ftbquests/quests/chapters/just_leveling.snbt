@@ -1,0 +1,161 @@
+{
+	autofocus_id: "6BFD87F540FD366E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_leveling"
+	group: "1D92F7FC6BF04B15"
+	id: "33FCEAED5BC51D91"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F042BC1BF5DAD5A"]
+			id: "6BFD87F540FD366E"
+			rewards: [{
+				id: "2771EA69D6AC0BF1"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "\"Just Leveling\"レベルを上げよう！"
+			tasks: [{
+				id: "04D539D271396957"
+				points: false
+				type: "xp"
+				value: 5L
+			}]
+			title: "Leveling!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BFD87F540FD366E"]
+			id: "50D7773406F593BC"
+			optional: true
+			tasks: [{
+				id: "5C7A3BF9E08458DE"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "Intelligence"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BFD87F540FD366E"]
+			id: "42F6BB0E0EEB32BB"
+			optional: true
+			tasks: [{
+				id: "4258823D9D3B55BC"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Building"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BFD87F540FD366E"]
+			id: "6953E1174F649016"
+			optional: true
+			tasks: [{
+				id: "6311685725255F05"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			title: "Luck"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BFD87F540FD366E"]
+			id: "7008CDDC13EFA7A6"
+			optional: true
+			tasks: [{
+				id: "6D0FF167AE759049"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Magic"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BFD87F540FD366E"]
+			id: "347E0B49EEA4528A"
+			optional: true
+			tasks: [{
+				id: "0CD9F69E5C5AD964"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Defense"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BFD87F540FD366E"]
+			id: "0BDD83FD565AA5C6"
+			optional: true
+			tasks: [{
+				id: "32CD91B5361D3585"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "Constitution"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BFD87F540FD366E"]
+			id: "54B0720373BD70D0"
+			optional: true
+			tasks: [{
+				id: "351EA2BE3BCD6784"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			title: "Strength"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BFD87F540FD366E"]
+			id: "411115A94EF5E451"
+			optional: true
+			tasks: [{
+				id: "4CB306916E729E24"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Dexterity"
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Just Leveling"
+}

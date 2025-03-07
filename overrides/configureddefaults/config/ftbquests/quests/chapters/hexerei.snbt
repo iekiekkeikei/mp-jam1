@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexerei"
+	group: "7A8984215F863D30"
+	id: "159DD5FC106C9FB0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "399A6E9E2B17BAE8"
+		rewards: [{
+			id: "4F3D4840C9CD64A0"
+			item: "minecraft:magma_block"
+			type: "item"
+		}]
+		tasks: [{
+			consume_items: false
+			id: "6E3A0944AC67432B"
+			item: "hexerei:mixing_cauldron"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Hexerei"
+}

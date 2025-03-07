@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mahoutsukai"
+	group: "7A8984215F863D30"
+	id: "093DB57382EA9E62"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "20EFBE6B3B2215E5"
+		tasks: [{
+			advancement: "mahoutsukai:root"
+			criterion: ""
+			id: "4765F59E4BD2C7E3"
+			type: "advancement"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "MahouTsukai"
+}
