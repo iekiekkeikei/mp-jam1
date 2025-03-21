@@ -7,7 +7,12 @@
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "30B1B19D722D5882"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "09D415F156D44493"
+		linked_quest: "24373F3BAEE9BB7E"
+		x: 0.0d
+		y: 2.0d
+	}]
 	quests: [
 		{
 			dependencies: ["7F042BC1BF5DAD5A"]
@@ -208,7 +213,9 @@
 		}
 		{
 			dependencies: ["59182DD871BC140E"]
+			icon: "minecraft:diamond_ore"
 			id: "082E30DBF1D4B853"
+			optional: true
 			tasks: [{
 				id: "3F1C826867B6F2E2"
 				optional_task: true
@@ -221,7 +228,10 @@
 		}
 		{
 			dependencies: ["59182DD871BC140E"]
+			hide_text_until_complete: false
+			icon: "minecraft:gold_ore"
 			id: "083908565CF0F35B"
+			optional: true
 			tasks: [{
 				id: "269E5E33DA985B76"
 				structure: "twilightforest:medium_hollow_hill"
@@ -233,7 +243,9 @@
 		}
 		{
 			dependencies: ["59182DD871BC140E"]
+			icon: "minecraft:iron_ore"
 			id: "37644E2887BF50E3"
+			optional: true
 			tasks: [{
 				id: "7F6A44FF01C157DC"
 				structure: "twilightforest:small_hollow_hill"

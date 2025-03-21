@@ -369,12 +369,12 @@
 	[Spells."irons_spellbooks:oakskin"]
 		Enabled = true
 		School = "irons_spellbooks:nature"
-		MaxLevel = 1
+		MaxLevel = 2
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
-		ManaCostMultiplier = 10.0
+		ManaCostMultiplier = 20.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 35.0
+		CooldownInSeconds = 6000.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:spider_aspect"]
@@ -646,12 +646,12 @@
 	[Spells."irons_spellbooks:evasion"]
 		Enabled = true
 		School = "irons_spellbooks:ender"
-		MaxLevel = 1
+		MaxLevel = 2
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
-		ManaCostMultiplier = 10.0
+		ManaCostMultiplier = 20.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 180.0
+		CooldownInSeconds = 20080.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:recall"]
@@ -701,12 +701,12 @@
 	[Spells."irons_spellbooks:echoing_strikes"]
 		Enabled = true
 		School = "irons_spellbooks:ender"
-		MaxLevel = 1
+		MaxLevel = 2
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 10.0
+		ManaCostMultiplier = 20.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 600.0
+		CooldownInSeconds = 6000.0
 		AllowCrafting = true
 
 	[Spells."traveloptics:cursed_minefield"]
@@ -1055,12 +1055,12 @@
 	[Spells."irons_spellbooks:abyssal_shroud"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 20
+		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 10.0
-		SpellPowerMultiplier = 10.0
-		CooldownInSeconds = 20.0
+		ManaCostMultiplier = 20.0
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 30000.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:sonic_boom"]

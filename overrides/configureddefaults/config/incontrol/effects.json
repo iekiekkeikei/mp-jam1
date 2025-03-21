@@ -2,6 +2,11 @@
     {
       "timeout": 20,
       "dimension": ["blue_skies:everdawn","blue_skies:everbright"],
-      "potion": "minecraft:luck,21,4"
+      "potion": "irons_spellbooks:instant_mana,21,4"
+    },
+    {
+      "timeout": 20,
+      "dimension": "aether:the_aether",
+      "potion": ["irons_spellbooks:guided,21,4","cataclysm:monstrous,21,4"]
     }
   ]

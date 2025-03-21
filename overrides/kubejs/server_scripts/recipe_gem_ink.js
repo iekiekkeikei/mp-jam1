@@ -1,4 +1,6 @@
-ServerEvents.recipes(e => {
+ServerEvents.recipes(e => {    
+    e.remove({id:`create_wizardry:common_ink_mana_recipe`})
+    e.remove({id:`create_wizardry:common_ink_recipe`})
     e.custom({
         type: "hexerei:mixingcauldron",
         liquid: {

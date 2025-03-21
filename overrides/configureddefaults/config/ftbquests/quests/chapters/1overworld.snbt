@@ -27,6 +27,7 @@
 		}
 		{
 			dependencies: ["30A1B07C445EEBEF"]
+			description: ["水源を植物で囲いダイアモンドを投げ入れよう"]
 			id: "24373F3BAEE9BB7E"
 			subtitle: "森に入るのではなく、森を出るためのポータル"
 			tasks: [{

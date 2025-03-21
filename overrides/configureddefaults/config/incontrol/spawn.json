@@ -63,5 +63,18 @@
         "mob": ["irons_spellbooks:dead_king_corpse", "alexscaves:luxtructosaurus", "blue_skies:summoner", "blue_skies:alchemist", "blue_skies:arachnarch", "blue_skies:starlit_crusher", "aether:slider", "aether:valkyrie_queen"],
         "mincount": 10,
         "result": "deny"
+    },
+    {
+        "mob": ["traveloptics:enraged_dead_king"],
+        "when": "finalize",
+        "result": "allow",
+        "armorhelmet": ["irons_spellbooks:gold_crown"]
+    },
+    {
+        "mob": ["irons_spellbooks:dead_king","traveloptics:enraged_dead_king"],
+        "when": "onjoin",
+        "result": "allow",
+        "speedmultiply": 2,
+        "helditem": ["irons_spellbooks:blood_staff"]
     }
   ]

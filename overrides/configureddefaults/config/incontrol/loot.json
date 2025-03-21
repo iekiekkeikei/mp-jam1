@@ -28,5 +28,11 @@
       "player": true,
       "item": "apotheosis:ancient_material",
       "itemcount": "0-2"
+    },
+    {
+      "mob": ["traveloptics:enraged_dead_king"],
+      "player": true,
+      "item": ["irons_spellbooks:gold_crown"],
+      "itemcount": "1"
     }
   ]

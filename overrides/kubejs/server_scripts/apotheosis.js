@@ -1,6 +1,6 @@
 // list of bosses
-const bosses = ["traveloptics:enraged_dead_king","kubejs:valine_3g","minecraft:wither", "minecraft:ender_dragon", "irons_spellbooks:dead_king", "alexscaves:luxtructosaurus", "blue_skies:arachnarch", "blue_skies:starlit_crusher"];
-// , "cataclysm:ancient_remnant", "cataclysm:maledictus", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity", "cataclysm:ignis","cataclysm:the_leviathan", "cataclysm:the_harbinger", "blue_skies:summoner", "blue_skies:alchemist", "dungeonnowloading:chaos_spawner"
+const bosses = ["kubejs:valine_3g","minecraft:wither", "minecraft:ender_dragon", "alexscaves:luxtructosaurus", "blue_skies:arachnarch", "blue_skies:starlit_crusher"];
+// "traveloptics:enraged_dead_king","irons_spellbooks:dead_king", "cataclysm:ancient_remnant", "cataclysm:maledictus", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity", "cataclysm:ignis","cataclysm:the_leviathan", "cataclysm:the_harbinger", "blue_skies:summoner", "blue_skies:alchemist", "dungeonnowloading:chaos_spawner"
 // 0:common 1:uncommon 2:rare 3:epic 4:mythic
 // common is normal monster
 const rarity = 7

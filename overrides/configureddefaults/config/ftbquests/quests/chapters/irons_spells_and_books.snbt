@@ -147,6 +147,76 @@
 			x: 1.5d
 			y: -3.0d
 		}
+		{
+			id: "37B8CEB7A4E4EDE3"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "57CCAFED648DFF6D"
+				title: "黄泉がえりの王"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "7228E2D40FD19BF1"
+			tasks: [{
+				entity: "traveloptics:enraged_dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:call_forth_the_dead_king"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				id: "5B4D40FEA554181C"
+				title: "蘇り、そして死ぬ"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "02EE2D8FC7602EEC"
+			tasks: [{
+				icon: "irons_spellbooks:furled_map"
+				id: "1A84B640846EB5D9"
+				structure: "irons_spellbooks:catacombs"
+				title: "墓"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "191452C2BBF5CB21"
+			tasks: [{
+				id: "6864D48B74764625"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
 	]
 	title: "Iron's Spells and Books"
 }
