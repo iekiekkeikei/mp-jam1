@@ -475,6 +475,1566 @@
       ],
       "unbreakable": true,
       "force_unbreakable": false
+    }    ,
+    {
+      "item": "botania:manaweave_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 75.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:manaweave_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 75.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:manaweave_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 75.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:manaweave_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 75.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "botania:elementium_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:elementium_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:elementium_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:elementium_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "botania:manasteel_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 150.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:manasteel_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 150.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:manasteel_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 150.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:manasteel_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 150.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "botania:terrasteel_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 600.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:terrasteel_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 600.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:terrasteel_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 600.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "botania:terrasteel_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 600.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "mythicbotany:alfsteel_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 750.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "mythicbotany:alfsteel_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 750.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "mythicbotany:alfsteel_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 750.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "mythicbotany:alfsteel_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 750.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:cultist_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:cultist_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:cultist_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:cultist_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:electromancer_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:electromancer_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:electromancer_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:electromancer_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:netherite_mage_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:netherite_mage_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:netherite_mage_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:netherite_mage_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:plagued_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:plagued_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:plagued_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:plagued_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:pyromancer_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:pyromancer_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:pyromancer_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:pyromancer_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:pumpkin_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:pumpkin_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:pumpkin_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:pumpkin_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:priest_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:priest_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:priest_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:priest_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:shadowwalker_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:shadowwalker_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:shadowwalker_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:shadowwalker_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:wandering_magician_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:wandering_magician_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:wandering_magician_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:wandering_magician_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:archevoker_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:archevoker_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:archevoker_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:archevoker_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "irons_spellbooks:cryomancer_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:cryomancer_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:cryomancer_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "irons_spellbooks:cryomancer_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "ice_and_fire_spellbooks:ice_dragon_priest_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:ice_dragon_priest_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:ice_dragon_priest_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:ice_dragon_priest_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "ice_and_fire_spellbooks:fire_dragon_priest_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:fire_dragon_priest_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:fire_dragon_priest_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:fire_dragon_priest_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "ice_and_fire_spellbooks:lightning_dragon_priest_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:lightning_dragon_priest_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:lightning_dragon_priest_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "ice_and_fire_spellbooks:lightning_dragon_priest_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "traveloptics:abyssal_hide_armor_hat",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:abyssal_hide_armor_robe",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:abyssal_hide_armor_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:abyssal_hide_armor_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "traveloptics:cursed_wraithguard_crown",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:cursed_wraithguard_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:cursed_wraithguard_spectral_wrapping",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:cursed_wraithguard_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "traveloptics:deepling_mage_armor_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:deepling_mage_armor_robe",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:deepling_mage_armor_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:deepling_mage_armor_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "traveloptics:forlorn_harbinger_hood",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:forlorn_harbinger_robe",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:forlorn_harbinger_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:forlorn_harbinger_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "traveloptics:mechanized_exoskeleton_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:mechanized_exoskeleton_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:mechanized_exoskeleton_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:mechanized_exoskeleton_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "traveloptics:primordial_crest_armor_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:primordial_crest_armor_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:primordial_crest_armor_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:primordial_crest_armor_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }    ,
+    {
+      "item": "traveloptics:tectonic_crest_armor_helmet",
+      "affected_slots": [
+        "head"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:tectonic_crest_armor_chestplate",
+      "affected_slots": [
+        "chest"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:tectonic_crest_armor_leggings",
+      "affected_slots": [
+        "legs"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    },
+    {
+      "item": "traveloptics:tectonic_crest_armor_boots",
+      "affected_slots": [
+        "feet"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
     }
   ],
   // Don't touch this!
