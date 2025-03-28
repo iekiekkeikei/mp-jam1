@@ -3,11 +3,13 @@
 	default_quest_shape: ""
 	filename: "24the_end"
 	group: "4E18A01DF8269CB5"
+	icon: "minecraft:end_stone"
 	id: "656B1E024A849442"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7F8A8A3DB498E7B5"]
 			icon: "minecraft:end_stone"
 			id: "1010EFE82BF79C8A"
 			tasks: [{
@@ -20,6 +22,7 @@
 			y: 0.0d
 		}
 		{
+			icon: "minecraft:dragon_head"
 			id: "737C497EA24084DC"
 			tasks: [{
 				entity: "minecraft:ender_dragon"

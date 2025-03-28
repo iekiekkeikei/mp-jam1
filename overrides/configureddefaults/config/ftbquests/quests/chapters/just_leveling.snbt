@@ -1,15 +1,22 @@
 {
 	autofocus_id: "6BFD87F540FD366E"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "just_leveling"
 	group: "1D92F7FC6BF04B15"
 	id: "33FCEAED5BC51D91"
+	images: [{
+		height: 10.0d
+		image: "justlevelingfork:item/leveling_book"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7F042BC1BF5DAD5A"]
 			id: "6BFD87F540FD366E"
 			rewards: [{
 				id: "2771EA69D6AC0BF1"

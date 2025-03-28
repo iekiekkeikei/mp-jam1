@@ -6,7 +6,7 @@
 	group: "4E18A01DF8269CB5"
 	icon: "twilightforest:pink_castle_rune_brick"
 	id: "2C238BA27242788E"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -37,5 +37,5 @@
 			y: 1.5d
 		}
 	]
-	title: "3-1-The Twilight Forest"
+	title: "3-0-The Twilight Forest"
 }

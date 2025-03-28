@@ -6,21 +6,65 @@
 	id: "159DD5FC106C9FB0"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "399A6E9E2B17BAE8"
-		rewards: [{
-			id: "4F3D4840C9CD64A0"
-			item: "minecraft:magma_block"
-			type: "item"
-		}]
-		tasks: [{
-			consume_items: false
-			id: "6E3A0944AC67432B"
-			item: "hexerei:mixing_cauldron"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "399A6E9E2B17BAE8"
+			rewards: [{
+				id: "4F3D4840C9CD64A0"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6E3A0944AC67432B"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "418B9725E2A9F293"
+			tasks: [{
+				id: "1DDC11C029BA7084"
+				item: {
+					Count: 1
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "3870B33D07627A7A"
+			tasks: [{
+				id: "16CF33AA9366A20C"
+				item: {
+					Count: 1
+					id: "hexerei:willow_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "2DD5EAF35431FAA6"
+			tasks: [{
+				id: "1F959B79A4FFFFA2"
+				item: {
+					Count: 1
+					id: "hexerei:witch_hazel_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
 	title: "Hexerei"
 }

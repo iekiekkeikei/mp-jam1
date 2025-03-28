@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "7A8984215F863D30"
+	icon: "botania:cosmetic_tiny_potato_mask"
 	id: "285A4626C6694B78"
 	order_index: 2
 	quest_links: [ ]
@@ -28,6 +29,36 @@
 			}]
 			x: 2.5d
 			y: 0.0d
+		}
+		{
+			id: "61AAC6C36D174AAF"
+			tasks: [{
+				id: "4D94A8825B9B6534"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "7010AA8A9D06E003"
+			tasks: [{
+				id: "02FBCDA2AE52E33E"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "5CBB9502C68C3564"
+			tasks: [{
+				id: "7111B6C04C77824F"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
 		}
 	]
 	title: "Botania"

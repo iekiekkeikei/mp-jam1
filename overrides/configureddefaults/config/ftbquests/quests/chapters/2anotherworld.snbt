@@ -4,11 +4,13 @@
 	default_quest_shape: ""
 	filename: "2anotherworld"
 	group: "4E18A01DF8269CB5"
+	icon: "aether:book_of_lore"
 	id: "0D28657E413AC8E3"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["24373F3BAEE9BB7E"]
 			icon: "aether:aether_portal_frame"
 			id: "658945046035D255"
 			tasks: [{

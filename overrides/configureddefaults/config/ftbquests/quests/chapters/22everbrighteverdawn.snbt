@@ -1,5 +1,5 @@
 {
-	autofocus_id: "3FAD2527AEB3B80E"
+	autofocus_id: "1D7985210E120D35"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "22everbrighteverdawn"
@@ -10,7 +10,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3FAD2527AEB3B80E"]
+			dependencies: [
+				"3FAD2527AEB3B80E"
+				"24373F3BAEE9BB7E"
+			]
 			icon: "blue_skies:everbright_portal"
 			id: "1D7985210E120D35"
 			tasks: [{
@@ -22,7 +25,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3FAD2527AEB3B80E"]
+			dependencies: [
+				"3FAD2527AEB3B80E"
+				"24373F3BAEE9BB7E"
+			]
 			icon: "blue_skies:everdawn_portal"
 			id: "0F3767F11651CC50"
 			tasks: [{

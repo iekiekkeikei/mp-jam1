@@ -1,14 +1,26 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "pentagon"
 	filename: "irons_spells_and_books"
 	group: "7A8984215F863D30"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:tarnished_helmet"
+		tag: {
+			Damage: 0
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 1
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
 	id: "669233D4A59A0C9D"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7F042BC1BF5DAD5A"]
 			id: "0BF18549D4A1FAF0"
 			rewards: [{
 				id: "71E21DF258762C90"
@@ -22,14 +34,7 @@
 				item: {
 					Count: 1
 					id: "irons_spellbooks:copper_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 5
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
+					tag: { }
 				}
 				match_nbt: false
 				type: "item"
@@ -56,7 +61,7 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -82,15 +87,16 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["5BEFF41905A33288"]
+			dependencies: ["4CDE8B515BA59C26"]
+			icon: "irons_spellbooks:common_ink"
 			id: "63D1A5DD2245EB92"
 			tasks: [{
 				id: "48854B6426954C9F"
 				item: "irons_spellbooks:common_ink"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["63D1A5DD2245EB92"]
@@ -100,8 +106,8 @@
 				item: "irons_spellbooks:uncommon_ink"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A3A99F7F363733D"]
@@ -111,8 +117,8 @@
 				item: "irons_spellbooks:rare_ink"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6A9923FB0E2CE743"]
@@ -122,8 +128,8 @@
 				item: "irons_spellbooks:epic_ink"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1D4AAA11889F0C3A"]
@@ -133,8 +139,8 @@
 				item: "irons_spellbooks:legendary_ink"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4CDE8B515BA59C26"]
@@ -148,6 +154,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["02EE2D8FC7602EEC"]
 			id: "37B8CEB7A4E4EDE3"
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
@@ -158,9 +165,10 @@
 				value: 1L
 			}]
 			x: 2.5d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["37B8CEB7A4E4EDE3"]
 			id: "7228E2D40FD19BF1"
 			tasks: [{
 				entity: "traveloptics:enraged_dead_king"
@@ -187,7 +195,7 @@
 				value: 1L
 			}]
 			x: 5.0d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
 			id: "02EE2D8FC7602EEC"
@@ -199,9 +207,10 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["7228E2D40FD19BF1"]
 			id: "191452C2BBF5CB21"
 			tasks: [{
 				id: "6864D48B74764625"
@@ -215,7 +224,28 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "49EF5689D50280F3"
+			tasks: [{
+				id: "44AD78F8880283B8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: "Iron's Spells and Books"

@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7F042BC1BF5DAD5A"]
+			icon: "sophisticatedbackpacks:backpack"
 			id: "5DE398EEE3EDD131"
 			rewards: [{
 				id: "0C4186D79707B16D"
@@ -175,6 +175,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["5AF0E44308AF2D95"]
 			id: "2777031D49B78EFD"
 			tasks: [
 				{
@@ -193,8 +194,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 2.0d
+			x: -2.5d
+			y: 1.0d
 		}
 	]
 	title: "Storage"

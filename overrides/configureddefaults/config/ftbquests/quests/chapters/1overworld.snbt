@@ -6,7 +6,50 @@
 	icon: "minecraft:grass_block"
 	id: "78D5CADDAC7CB161"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "202B5AAC89F3644D"
+			linked_quest: "02EE2D8FC7602EEC"
+			shape: "diamond"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "377BCEFAE607616E"
+			linked_quest: "37B8CEB7A4E4EDE3"
+			shape: "diamond"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "074135FCA33C5A7B"
+			linked_quest: "65DE726FD0B8D9E1"
+			shape: "diamond"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "315FD1F0728DFDB5"
+			linked_quest: "7A3EDE3ACEC84DAA"
+			shape: "diamond"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "075262DD0ED38C22"
+			linked_quest: "0413DFF62F05A1D0"
+			shape: "diamond"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "2574FDFB4746FD66"
+			linked_quest: "11DA8CD7B3E5F948"
+			shape: "diamond"
+			x: 2.0d
+			y: -2.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
@@ -14,12 +57,19 @@
 				"24373F3BAEE9BB7E"
 			]
 			description: ["体力120が当然のオーバーワールドへようこそ。"]
-			icon: "minecraft:grass_block"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "764055F70CAAA0F4"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "4A177088BA331C8C"
-				type: "dimension"
+				id: "5317D219F0724FD2"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
 			}]
 			title: "生き地獄"
 			x: 0.0d
@@ -28,12 +78,13 @@
 		{
 			dependencies: ["30A1B07C445EEBEF"]
 			description: ["水源を植物で囲いダイアモンドを投げ入れよう"]
+			icon: "minecraft:grass_block"
 			id: "24373F3BAEE9BB7E"
 			subtitle: "森に入るのではなく、森を出るためのポータル"
 			tasks: [{
-				id: "6CB8402671EF32F9"
-				item: "minecraft:diamond"
-				type: "item"
+				dimension: "minecraft:overworld"
+				id: "6E6D214600B2EC7D"
+				type: "dimension"
 			}]
 			title: "森を抜けて"
 			x: -2.0d
@@ -41,6 +92,7 @@
 		}
 		{
 			id: "2B6C506E0E0B5B38"
+			shape: "diamond"
 			tasks: [{
 				entity: "iceandfire:fire_dragon"
 				icon: "iceandfire:fire_dragon_heart"
@@ -48,11 +100,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
 			id: "2AFDDC152C5C53F4"
+			shape: "diamond"
 			tasks: [{
 				entity: "iceandfire:ice_dragon"
 				icon: "iceandfire:ice_dragon_heart"
@@ -60,20 +113,55 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			icon: "iceandfire:lightning_dragon_heart"
 			id: "4F24DD982FE6224A"
+			shape: "diamond"
 			tasks: [{
 				entity: "iceandfire:lightning_dragon"
 				id: "6020804D66B5A646"
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "61DDA39D4455EF8C"
+			shape: "diamond"
+			tasks: [{
+				id: "272DEE35B9372195"
+				structure: "dungeonnowloading:labyrinth"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61DDA39D4455EF8C"]
+			id: "5ED19A71064316B7"
+			shape: "diamond"
+			tasks: [{
+				entity: "dungeonnowloading:chaos_spawner"
+				id: "77F3C0D80D205985"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "6B5B9163C15B5485"
+			tasks: [{
+				id: "16B95148D2B86B29"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
 		}
 	]
 	title: "1-OverWorld"

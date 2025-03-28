@@ -3,11 +3,13 @@
 	default_quest_shape: ""
 	filename: "23nether"
 	group: "4E18A01DF8269CB5"
+	icon: "minecraft:nether_quartz_ore"
 	id: "5E4AD96DFE01B4BA"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["24373F3BAEE9BB7E"]
 			icon: "minecraft:netherrack"
 			id: "7F8A8A3DB498E7B5"
 			tasks: [{
@@ -19,6 +21,7 @@
 			y: 0.0d
 		}
 		{
+			icon: "minecraft:wither_skeleton_skull"
 			id: "03978E47A22B1698"
 			tasks: [{
 				entity: "minecraft:wither"

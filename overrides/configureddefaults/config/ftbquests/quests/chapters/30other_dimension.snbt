@@ -4,9 +4,10 @@
 	filename: "30other_dimension"
 	group: "4E18A01DF8269CB5"
 	id: "5AD5FFC5A2FAA7F6"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["24373F3BAEE9BB7E"]
 		icon: "deeperdarker:heart_of_the_deep"
 		id: "44538F8659B00D67"
 		tasks: [{
@@ -17,5 +18,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "3-0-OtherSide"
+	title: "Extra-OtherSide"
 }

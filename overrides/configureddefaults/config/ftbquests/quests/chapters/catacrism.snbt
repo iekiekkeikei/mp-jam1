@@ -1,0 +1,232 @@
+{
+	autofocus_id: "54725244B92F5871"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "catacrism"
+	group: "7A8984215F863D30"
+	icon: "cataclysm:blazing_grips"
+	id: "7391867706FD9ADA"
+	images: [
+		{
+			height: 2.0d
+			image: "cataclysm:textures/mob_effect/monstrous.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/trap_flame_2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:item/void_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_lantern_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "cataclysm:mech_eye"
+			id: "65DE726FD0B8D9E1"
+			tasks: [{
+				id: "2F3444395485E3DA"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:flame_eye"
+			id: "76376375F845E05B"
+			tasks: [{
+				id: "2A50ED43594359D6"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			icon: "cataclysm:cursed_eye"
+			id: "7A3EDE3ACEC84DAA"
+			tasks: [{
+				id: "49212DF41CE52C3D"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:desert_eye"
+			id: "11DA8CD7B3E5F948"
+			tasks: [{
+				id: "5D8B85FB01969629"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			icon: "cataclysm:void_eye"
+			id: "2895FBCCF70717AC"
+			tasks: [{
+				id: "4E020B3BABFD16F6"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: "cataclysm:monstrous_eye"
+			id: "1DCEFFCF1E2889F0"
+			tasks: [{
+				id: "351D46BDBAE2EB10"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:abyss_eye"
+			id: "0413DFF62F05A1D0"
+			tasks: [{
+				id: "4126CE71F5C27E28"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1DCEFFCF1E2889F0"]
+			id: "24EAEB3BBFFC0A3C"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:music_disc_netherite_monstrosity"
+				id: "360607B104876632"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76376375F845E05B"]
+			id: "1717313A975059B5"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:music_disc_ignis"
+				id: "568FFAF24951895A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0413DFF62F05A1D0"]
+			icon: "cataclysm:music_disc_the_leviathan"
+			id: "27F9ABC09F1B5E4C"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "0B3D0EF90DB17A60"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11DA8CD7B3E5F948"]
+			icon: "cataclysm:music_disc_ancient_remnant"
+			id: "230C842F90502FE7"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "77AEA2CBBB7E3640"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65DE726FD0B8D9E1"]
+			icon: "cataclysm:music_disc_the_harbinger"
+			id: "013A184495A268A5"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "30CBE276C32D7AD1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A3EDE3ACEC84DAA"]
+			icon: "cataclysm:music_disc_maledictus"
+			id: "6FA052B9E8DF55B6"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "644BAF2CD014D707"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2895FBCCF70717AC"]
+			icon: "cataclysm:music_disc_ender_guardian"
+			id: "54725244B92F5871"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "59B18AFA3753BFB0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Cataclysm"
+}

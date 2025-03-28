@@ -15,7 +15,6 @@
 	}]
 	quests: [
 		{
-			dependencies: ["7F042BC1BF5DAD5A"]
 			description: [
 				"あなたの旅はここ、黄昏の森から始まります。"
 				"序盤の拠点は大きいTwilight Oakにドアをつけて中に住むと快適だったりします"
@@ -37,10 +36,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"30A1B07C445EEBEF"
-				"59182DD871BC140E"
-			]
+			dependencies: ["30A1B07C445EEBEF"]
 			id: "6E0509CA06353A34"
 			tasks: [{
 				entity: "twilightforest:naga"
@@ -187,11 +183,9 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"30A1B07C445EEBEF"
-				"6BFD87F540FD366E"
-			]
+			dependencies: ["30A1B07C445EEBEF"]
 			id: "2E5840D46A13FC55"
+			optional: true
 			tasks: [{
 				id: "4B819416DA64D93B"
 				item: "twilightforest:magic_map_focus"
@@ -203,6 +197,7 @@
 		{
 			dependencies: ["2E5840D46A13FC55"]
 			id: "59182DD871BC140E"
+			optional: true
 			tasks: [{
 				id: "1FA49098A85B6AAD"
 				item: "twilightforest:magic_map"
@@ -254,6 +249,19 @@
 			title: "亡霊鉱山・小"
 			x: 4.0d
 			y: -3.0d
+		}
+		{
+			id: "54A41E5FF89B9CDA"
+			subtitle: "狼の倒しすぎだからOverWolf()"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "045FBD8F0945EA8E"
+				type: "kill"
+				value: 100L
+			}]
+			title: "OverWolf"
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "0-The Twilight Forest"
